@@ -1,8 +1,9 @@
 div.latin_name_div {
-    display: flex;
+    display: inline;
 }
 
 p.latin_name {
+    display:inline;
     font-style: italic;
     margin-left: .5em;
 }

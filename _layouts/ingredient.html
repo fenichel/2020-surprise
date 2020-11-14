@@ -5,16 +5,45 @@ layout: default
 {% assign info = site.data.ingredients.ingredients[index] %}
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ info.name }}</title>
-    <link rel="stylesheet" href="/assets/css/custom.css">
-  </head>
-<h1>
-    {{ info.name }} </h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ info.name }}</title>
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<div class="card text-center vh-100">
+  <h1 class="card-header text-center">{{ info.name }} </h1>
+  <div class="container-sm">
+    <img src="{{ info.img }}" class=" rounded my-2" style="max-height: 33vh; width: auto; height: auto;">
+    </img>
+  </div>
+  <div class="card-body">
+
+    <h6 class="card-subtitle text-muted text-center mb-4">
+      {{ info.description }}
+    </h6>
+
+    {%if info.facts %}
+    <ul class="list-group list-group-flush ml-0">
+      
 
     {%if info.latin_name %}
-    <div class="latin_name_div"><p>Latin name: </p><p class="latin_name">{{ info.latin_name }} </p></div>
+    <li class="list-group-item ml-0">
+    <div class="d-flex flex-row justify-content-center ">
+      <div class="card-text p-2">Latin name: </div>
+      <div class="card-text p-2 font-italic">
+        {{ info.latin_name }}
+      </div>
+    </div>
+  </li>
     {% endif %}
-<p>{{ info.description }} </p>
-{{ content }}
+      {%- for fact in info.facts -%}
+      <li class="list-group-item">{{fact}}</li>
+      {%- endfor -%}
+    </ul>
+    {% endif %}
+  </div>
+</div>

@@ -3,20 +3,39 @@
         {
             "name": "Sichuan Peppercorn",
             "description": "The tongue-numbing citrus-scented berry of a Chinese prickly ash tree.",
-            "latin_name": "Zanthozylum simulans"
+            "latin_name": "Zanthozylum simulans",
+            "facts": [
+                "Native to Sichuan Province, China",
+                "Cultivated throughout Asia",
+                "Pairs well with citrus, ginger, and anything in the anise family"
+            ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Sichuan_pepper%2C_including_husks%2C_seeds_and_stems.jpg"
         },
         {
             "name": "Cayenne",
             "description": "The all-purpose hot chili commonly found in Western hot sauce.",
-            "latin_name": "Capsicum annuum"
+            "latin_name": "Capsicum annuum",
+            "facts": [
+                "Native to French Guiana, Central and South America",
+                "Cultivated in Mexico, Africa, India, and Louisiana",
+                "Cayenne is a medium to high-heat chili with sweet-and-sour notes, dusty overtones, and a great orange color"
+            ]
         },
         {
             "name": "Monosodium Glutamate",
-            "description":  "A flavor enhancer with an umami taste that intensifies the meaty, savory flavor of food"
+            "description":  "A flavor enhancer with an umami taste that intensifies the meaty, savory flavor of food",
+            "facts": [
+                "MSG was first prepared in 1908 by Japanese biochemist Kikunae Ikeda, who was trying to isolate and duplicate the savory taste of kombu"
+            ]
         },
         {
             "name": "Popping Corn",
-            "description": "A variety of corn kernel which expands and puffs up when heated."
+            "description": "A variety of corn kernel which expands and puffs up when heated.",
+            "facts": [
+                "Popcorn is one of the six major types of corn",
+                "The others are dent corn, pod corn, flour corn, flint corn, and sweet corn",
+                "The outer hull pops at approximately 135 psi and 180 C"
+            ]
         },
         {
             "name": "Chia Seeds",
