@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% assign index = page.index %}
+{% assign info = site.data.ingredients.ingredients[index] %}
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ info.name }}</title>
+    <link rel="stylesheet" href="/assets/css/custom.css">
+  </head>
+<h1>
+    {{ info.name }} </h1>
+
+    {%if info.latin_name %}
+    <div class="latin_name_div"><p>Latin name: </p><p class="latin_name">{{ info.latin_name }} </p></div>
+    {% endif %}
+<p>{{ info.description }} </p>
+{{ content }}

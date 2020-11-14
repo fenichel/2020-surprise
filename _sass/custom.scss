@@ -1,0 +1,28 @@
+div.latin_name_div {
+    display: flex;
+}
+
+p.latin_name {
+    font-style: italic;
+    margin-left: .5em;
+}
+
+div.index_table { 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+div.index_day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 20%;  // Default to full width
+  padding: 0.8em 1.2em;
+  overflow: hidden; // Or flex might break
+  list-style: none;
+  border: solid white;
+}

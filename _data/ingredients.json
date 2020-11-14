@@ -1,0 +1,107 @@
+{
+    "ingredients": [
+        {
+            "name": "Sichuan Peppercorn",
+            "description": "The tongue-numbing citrus-scented berry of a Chinese prickly ash tree.",
+            "latin_name": "Zanthozylum simulans"
+        },
+        {
+            "name": "Cayenne",
+            "description": "The all-purpose hot chili commonly found in Western hot sauce.",
+            "latin_name": "Capsicum annuum"
+        },
+        {
+            "name": "Monosodium Glutamate",
+            "description":  "A flavor enhancer with an umami taste that intensifies the meaty, savory flavor of food"
+        },
+        {
+            "name": "Popping Corn",
+            "description": "A variety of corn kernel which expands and puffs up when heated."
+        },
+        {
+            "name": "Chia Seeds",
+            "description": "A mild-flavored seed with exciting hydrophilic behaviour.",
+            "latin_name": "Salvia hispanica, Salvia columbariae"
+        },
+        {
+            "name": "Flax Seeds",
+            "description": ""
+        },
+        {
+            "name": "Millet",
+            "description": ""
+        },
+        {
+            "name": "Raisins",
+            "description": ""
+        },
+        {
+            "name": "Bulgur Wheat",
+            "description": ""
+        },
+        {
+            "name": "Cocoa Powder",
+            "description": ""
+        },
+        {
+            "name": "Powdered Sugar",
+            "description": ""
+        },
+        {
+            "name": "Chocolate Slivers",
+            "description": ""
+        },
+        {
+            "name": "Milk Powder",
+            "description": "A shelf-stable, lightweight form of milk often used in candy, baked goods, and infant formula."
+        },
+        {
+            "name": "Currants",
+            "description": "The dried berries of the Black Corinth grape, often used in British cuisine."
+        },
+        {
+            "name": "Barberries",
+            "description": "A small, sharply-flavored sour fruit commonly used in Persian cooking."
+        },
+        {
+            "name": "Almond Slivers",
+            "description": ""
+        },
+        {
+            "name": "Shredded Coconut",
+            "description": "The sweet meat of the coconut seed, which has been shredded and then dried"
+        },
+        {
+            "name": "Dark Brown Sugar",
+            "description": ""
+        },
+        {
+            "name": "Sunflower Seeds",
+            "description": ""
+        },
+        {
+            "name": "Oats",
+            "description": ""
+        },
+        {
+            "name": "Cloves",
+            "description": ""
+        },
+        {
+            "name": "Orange peel",
+            "description": ""
+        },
+        {
+            "name": "Ginger",
+            "description": ""
+        },
+        {
+            "name": "Star Anise",
+            "description": ""
+        },
+        {
+            "name": "Cinnamon",
+            "description": ""
+        }
+    ]
+}
