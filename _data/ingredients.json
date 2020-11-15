@@ -1,6 +1,11 @@
 {
     "ingredients": [
         {
+            "name": "placeholder",
+            "description": "start ingredients at 1 instead of 0."
+        },
+
+        {
             "name": "Sichuan Peppercorn",
             "description": "The tongue-numbing citrus-scented berry of a Chinese prickly ash tree.",
             "latin_name": "Zanthozylum simulans",
@@ -26,7 +31,8 @@
             "description":  "A flavor enhancer with an umami taste that intensifies the meaty, savory flavor of food",
             "facts": [
                 "MSG was first prepared in 1908 by Japanese biochemist Kikunae Ikeda, who was trying to isolate and duplicate the savory taste of kombu"
-            ]
+            ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Ajinomoto_msg.jpg"
         },
         {
             "name": "Popping Corn",

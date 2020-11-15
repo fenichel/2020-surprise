@@ -6,11 +6,12 @@ layout: homepage
 
 <div class="index_table">
 
-{% for i in (0..24) %}
+{% for i in (1..25) %}
 <div class="index_day">
  {% assign ingredient = site.data.ingredients.ingredients[i] %}
-    <a href="./pages/{{ ingredient.name | downcase | replace: " ", "_" }}">
-      {{ i | plus: "1" }}
+    <!-- <a href="./pages/{{ ingredient.name | downcase | replace: " ", "_" }}"> -->
+    <a href="./pages/{{ i }}">
+      {{ i }}
     </a>
 </div>
 {% endfor %}

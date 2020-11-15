@@ -17,7 +17,7 @@ layout: default
 <div class="card text-center vh-100">
   <h1 class="card-header text-center">{{ info.name }} </h1>
   <div class="container-sm">
-    <img src="{{ info.img }}" class=" rounded my-2" style="max-height: 33vh; width: auto; height: auto;">
+    <img src="{{ info.img }}" class=" rounded my-3" style="max-height: 33vh; width: auto; height: auto;">
     </img>
   </div>
   <div class="card-body">
@@ -33,8 +33,8 @@ layout: default
     {%if info.latin_name %}
     <li class="list-group-item ml-0">
     <div class="d-flex flex-row justify-content-center ">
-      <div class="card-text p-2">Latin name: </div>
-      <div class="card-text p-2 font-italic">
+      <div class="card-text pv-2 mx-1">Latin name: </div>
+      <div class="card-text pv-2 font-italic mx-1">
         {{ info.latin_name }}
       </div>
     </div>
