@@ -1,0 +1,23 @@
+---
+layout: ingredient_index
+title: The Ingredients
+---
+
+<div class="container-fluid py-2">
+  <h1 class="display-5 text-center mb-3 mt-2 ">The Ingredients</h1>
+  <div class="row">
+    {% for i in (1..25) %}
+    <div class="col justify-content-center m-2 p-3 ">
+      {% assign ingredient = site.data.ingredients.ingredients[i] %}
+      <div class="card h-100 w-100 text-center" style="min-width: 15vw;">
+        <h4 class="card-header text-center text-decoration-none" style="min-height: 3.5em;">{{ ingredient.name }} </h4>
+        <div class="container-sm align-items-center">
+          <a href="./pages/{{ i }}">
+            <img src="{{ ingredient.img }}" class="bottomImg" style="">
+            </img>
+          </a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
