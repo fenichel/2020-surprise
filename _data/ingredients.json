@@ -46,7 +46,13 @@
         {
             "name": "Chia Seeds",
             "description": "A mild-flavored seed with exciting hydrophilic behaviour.",
-            "latin_name": "Salvia hispanica, Salvia columbariae"
+            "latin_name": "Salvia hispanica, Salvia columbariae",
+            "facts": [
+                "Native to Mexico and the Southwestern United States",
+                "Cultivated throughout Central and South America",
+                "Chia seeds absorb up to 12 times their weight in liquid when soaked, and develop a mucilaginous coating",
+                "Exceptionally good at getting stuck in the spaces between your teeth"
+            ]
         },
         {
             "name": "Flax Seeds",
@@ -70,7 +76,12 @@
         },
         {
             "name": "Powdered Sugar",
-            "description": ""
+            "description": "A mix of finely ground sugar and cornstarch, designed to dissolve quickly and without caking",
+            "facts": [
+                "Before sugar was widely available in granulated form, it came in cakes or cones",
+                "Chefs would then grate it to the desired size",
+                "Sugar cane is thousands of years old, while sugar beets were only developer in the mid 18th century in Prussia"
+            ]
         },
         {
             "name": "Chocolate Slivers",
@@ -78,23 +89,47 @@
         },
         {
             "name": "Milk Powder",
-            "description": "A shelf-stable, lightweight form of milk often used in candy, baked goods, and infant formula."
+            "description": "A shelf-stable, lightweight form of milk often used in candy, baked goods, and infant formula.",
+            "facts": [
+                "Partially drying milk gives evaporated milk, also known as unsweetened condensed milk",
+                "The flavors and fat content in the original milk significantly impact the flavor of the powder; so does the drying method"
+            ]
         },
         {
             "name": "Currants",
-            "description": "The dried berries of the Black Corinth grape, often used in British cuisine."
+            "description": "The dried berries of the Black Corinth grape, often used in British cuisine.",
+            "facts": [
+                "They are not related to black, red, or white currants",
+                "White Corinth grapes are often marketed as Champagne Grapes in the United States",
+                "Toxic to dogs",
+                "The British imported them as a sweetener before sugar was widely available"
+            ]
         },
         {
             "name": "Barberries",
-            "description": "A small, sharply-flavored sour fruit commonly used in Persian cooking."
+            "description": "A small, sharply-flavored sour fruit commonly used in Persian cooking.",
+            "latin_name": "Berberis vulgaris",
+            "facts": [
+                "Zereshk in Persian",
+                "Grows in the wild in Europe and West Asia",
+                "Two related species are found in Argentina and Chile",
+                "The stem, root, and bark can be used to make a yellow dye"
+            ]
         },
         {
             "name": "Almond Slivers",
-            "description": ""
+            "description": "",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Almond_-_%E0%B4%AC%E0%B4%A6%E0%B4%BE%E0%B4%82.jpg"
         },
         {
             "name": "Shredded Coconut",
-            "description": "The sweet meat of the coconut seed, which has been shredded and then dried"
+            "description": "The sweet meat of the coconut seed, which has been shredded and then dried",
+            "latin_name": "Cocos nucifera",
+            "facts": [
+                "Every part of the coconut has a use, from the inside of the fruit to the fibrous husks to their leaves and trunks",
+                "If you were stuck on a deserted island, a coconut tree would be an excellent resource!"
+            ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Coco_rallado.jpg"
         },
         {
             "name": "Dark Brown Sugar",
@@ -102,31 +137,64 @@
         },
         {
             "name": "Sunflower Seeds",
-            "description": ""
+            "description": "The hulled seed of the sunflower, often used as a carrier for salt and flavor",
+            "latin_name": "Helianthus annuus",
+            "facts":[
+                "Did you know you can buy pickle flavored sunflower seeds?",
+                "Sunflowers tilt during the day to face the sun, but stop when they begin blooming"
+            ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sunflower_seeds_1.jpg"
         },
         {
             "name": "Oats",
-            "description": ""
+            "description": "",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Nahrungsmittel_2012-07-08-9510.jpg"
         },
         {
             "name": "Cloves",
-            "description": ""
+            "description": "A powerfully scented dried flower bud",
+            "latin_name": "Syzygium aromaticum",
+            "facts":[
+                "A member of the myrtle family",
+                "The Dutch monopolized the trade of cloves from the seventeenth century on",
+                "In the late 1700s a Frenchman named Pierre Poivre brought stolen clove seedlings to France (and then to Zanzibar) and set up competition with the Dutch"
+            ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cloves.JPG"
         },
         {
             "name": "Orange peel",
-            "description": ""
+            "description": "",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/b/bc/2015-Erstansatz.jpg"
         },
         {
             "name": "Ginger",
-            "description": ""
+            "description": "A fragrant, peppery spice made from a knobby rhizome",
+            "latin_name": "Zingiber officinale",
+            "facts":[
+                "The spicy compound in ginger is called gingerol",
+                "Cultivated in India, China, Japan, Indonesia, Nigeria, Jamaica, and various islands of the West Indies",
+                "Native to China"
+            ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/4/41/Starr_070730-7818_Zingiber_officinale.jpg"
         },
         {
             "name": "Star Anise",
-            "description": ""
+            "description": "A sweet, licorice-scented spice made from distinct eight-pointed fruits",
+            "latin_name": "Illicium verum",
+            "facts": [
+                "Native to China and Vietnam"
+            ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/6/62/Illicium_verum_2006-10-17.jpg"
         },
         {
             "name": "Cinnamon",
-            "description": ""
+            "description": "Warm spices made from the barks of young tree stems",
+            "facts":[
+                "The trees are grown for multiple years, then chopped down to stumps that push up bushy new shoots from the base",
+                "After the rainy season these shoots are cut",
+                "The outer bark is scraped off and discarded, and the inner bark carefully pulled off into rolls"
+            ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/6/67/Canelle_Cinnamomum_burmannii_Luc_Viatour.jpg"
         }
     ]
 }

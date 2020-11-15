@@ -1,0 +1,30 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: homepage
+---
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ info.name }}</title>
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<div class="jumbotron py-2">
+  <h1 class="display-5 text-center">The Calendar</h1>
+  {% for i in (1..5) %}
+  <div class="row">
+    {% for j in (1..5) %}
+    <div class="col d-flex justify-content-center m-1 p-3 bg-light">
+      {% assign date = i | minus: 1 | times: 5 | plus: j %}
+      {% assign ingredient = site.data.ingredients.ingredients[i] %}
+        <a href="./pages/{{ date }}" class="h1 text-center text-dark">
+          {{ date }}
+        </a>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
