@@ -31,7 +31,8 @@ theme: minima
 defaults:
   -
     scope:
-      path: "pages/"
+      path: "pages"
+      type: "pages"
     values:
       layout: "ingredient"
 
