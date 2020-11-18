@@ -31,7 +31,10 @@
             "name": "Monosodium Glutamate",
             "description":  "A flavor enhancer with an umami taste that intensifies the meaty, savory flavor of food",
             "facts": [
-                "MSG was first prepared in 1908 by Japanese biochemist Kikunae Ikeda, who was trying to isolate and duplicate the savory taste of kombu"
+                "MSG was first prepared in 1908 by Japanese biochemist Kikunae Ikeda, who was trying to isolate and duplicate the savory taste of kombu",
+                "MSG occurs natural in tomatoes and cheese",
+                "Ajinomoto is the Japanese company that originally made and sold MSG to Japanese consumers",
+                "Aji-no-moto means 'essence of taste' in Japanese"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/8/89/Monosodium_glutamate_crystals.jpg"
         },
@@ -41,7 +44,9 @@
             "facts": [
                 "Popcorn is one of the six major types of corn",
                 "The others are dent corn, pod corn, flour corn, flint corn, and sweet corn",
-                "The outer hull pops at approximately 135 psi and 180 C"
+                "The outer hull pops at approximately 135 psi and 180 C",
+                "The first commercial popcorn machine was invented in Chicago in 1885",
+                "Nebraska produces 250 million pounds of popcorn per year"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ab_food_06.jpg"
         },
@@ -59,22 +64,49 @@
         },
         {
             "name": "Flax Seeds",
-            "description": "",
+            "description": "A small, nutty, oily seed that can add crunch to oatmeal and bread",
+            "facts": [
+                "Flax seeds come in both brown and golden varieties",
+                "Flax seeds are used to produce linseed oil, which is often used in wodworking",
+                "Linen is the fabric made from flax fibers",
+                "The meal left from oil production is added to cattle feed as a protein supplement",
+                "One of the steps in producing flax fiber is called heckling"
+            ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pellavansiemenia_%282%29.jpg"
         },
         {
             "name": "Millet",
-            "description": "",
+            "description": "A family of versatile cereals eaten around the world",
+            "facts": [
+                "Millet was domesticated multiple times across the world",
+                "As a result, millet species vary widely around the world",
+                "India produces about one third of the world's millet",
+                "Millets are major food sources in arid and semiarid regions, where they grow more reliably than other cereals",
+                "In the United States millet is mainly used for bird seed"
+            ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Proso_Millet.jpg"
         },
         {
             "name": "Raisins",
-            "description": "",
+            "description": "A super-sweet dried grape commonly used in baking",
+            "facts": [
+                "There is a distinction between a sultana (a golden raisin) and a raisin (a dark raisin) in the UK, Ireland, New Zealand, and Australia",
+                "Raisins are traditionally sun-dried, either on the vine or on trays",
+                "Oatmeal raisin cookies are a polarizing topic; oatmeal raisin chocolate chip cookies can break up even the strongest friendships"
+            ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/8/82/Raisins.jpg"
         },
         {
             "name": "Bulgur Wheat",
-            "description": "",
+            "description": "A crushed, parboiled wheat grain with a nutty flavor",
+            "facts": [
+                "Bulgur is made from cracked whole-grain kernels of wheat that are parboiled before packaging",
+                "It is different from wheat berries, which are packaged whole and raw, and freekeh, which is cracked but uncooked young green wheat kernels",
+                "Bulgur is often made from durum wheat",
+                "Bulgur does not need to be cooked, merely soaked",
+                "You may have eaten bulgur in tabbouleh or kibbeh",
+                "Bulgur comes in various grades, distinguished by particle size"
+            ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/7/76/Bulgur_yap%C4%B1m%C4%B1.JPG"
         },
         {
