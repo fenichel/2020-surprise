@@ -28,6 +28,9 @@ url: "https://fenichel.github.io/2020-surprise" # the base hostname & protocol f
 # Build settings
 theme: minima
 
+layouts_dir: /_layouts
+includes_dir: /_includes
+
 defaults:
   -
     scope:
