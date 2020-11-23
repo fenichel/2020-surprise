@@ -32,7 +32,7 @@
             "description":  "A flavor enhancer with an umami taste that intensifies the meaty, savory flavor of food",
             "facts": [
                 "MSG was first prepared in 1908 by Japanese biochemist Kikunae Ikeda, who was trying to isolate and duplicate the savory taste of kombu",
-                "MSG occurs natural in tomatoes and cheese",
+                "MSG occurs naturally in tomatoes and cheese",
                 "Ajinomoto is the Japanese company that originally made and sold MSG to Japanese consumers",
                 "Aji-no-moto means 'essence of taste' in Japanese"
             ],
@@ -87,14 +87,14 @@
             "img": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Proso_Millet.jpg"
         },
         {
-            "name": "Raisins",
-            "description": "A super-sweet dried grape commonly used in baking",
+            "name": "Pecans",
+            "description": "A rich, buttery nut often used in sweet desserts",
             "facts": [
-                "There is a distinction between a sultana (a golden raisin) and a raisin (a dark raisin) in the UK, Ireland, New Zealand, and Australia",
-                "Raisins are traditionally sun-dried, either on the vine or on trays",
-                "Oatmeal raisin cookies are a polarizing topic; oatmeal raisin chocolate chip cookies can break up even the strongest friendships"
+                "The commercial growing of pecans in the United States did not start until the 1880s",
+                "The US and Mexico account for 93% of global pecan production",
+                "Pecans grow best where summers are long, hot, and humid"
             ],
-            "img": "https://upload.wikimedia.org/wikipedia/commons/8/82/Raisins.jpg"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Pecan_halves.JPG"
         },
         {
             "name": "Bulgur Wheat",
@@ -110,8 +110,8 @@
             "img": "https://upload.wikimedia.org/wikipedia/commons/7/76/Bulgur_yap%C4%B1m%C4%B1.JPG"
         },
         {
-            "name": "Cocoa Powder",
-            "description": "",
+            "name": "Dutched Cocoa Powder",
+            "description": "Cocoa powder that has been washed with an alkaline solution to neutralize its natural acidity",
             "img": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cocoa-powder-1883108.jpg"
         },
         {
@@ -125,9 +125,15 @@
             "img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/PowderedSugar.png"
         },
         {
-            "name": "Chocolate Slivers",
-            "description": "",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Dark_chocolate_Blanxart.jpg"
+            "name": "Marshmallow",
+            "description": "A puffy white candy made out of sugar, water, and gelatin",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/3/3d/White_Marshmallows.jpg",
+            "facts": [
+                "Marshmallows were originally made by whipping the sap of the mallow plant with sugar",
+                "Later confectioners in France replaced the mallow sap with gelatin and corn starch, making the marshmallow we know today",
+                "Most marshmallows are made using an extrusion process developed in the late 1940s",
+                "Marshmallows are fluffed by being pumped through a blender while air is being pumped in"
+            ]
         },
         {
             "name": "Milk Powder",
@@ -139,15 +145,14 @@
             "img": "https://upload.wikimedia.org/wikipedia/commons/8/8b/PowderedMilk.jpg"
         },
         {
-            "name": "Currants",
-            "description": "The dried berries of the Black Corinth grape, often used in British cuisine.",
+            "name": "Raisins",
+            "description": "A super-sweet dried grape commonly used in baking",
             "facts": [
-                "They are not related to black, red, or white currants",
-                "White Corinth grapes are often marketed as Champagne Grapes in the United States",
-                "Toxic to dogs",
-                "The British imported them as a sweetener before sugar was widely available"
+                "There is a distinction between a sultana (a golden raisin) and a raisin (a dark raisin) in the UK, Ireland, New Zealand, and Australia",
+                "Raisins are traditionally sun-dried, either on the vine or on trays",
+                "Oatmeal raisin cookies are a polarizing topic; oatmeal raisin chocolate chip cookies can break up even the strongest friendships"
             ],
-            "img": "https://upload.wikimedia.org/wikipedia/commons/0/00/Grape_Rasins_plus_Zante_Currants.jpg"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/8/82/Raisins.jpg"
         },
         {
             "name": "Barberries",

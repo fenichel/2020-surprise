@@ -1,0 +1,69 @@
+---
+layout: default
+---
+{% assign recipe_name = page.recipe_name %}
+{% assign info = site.data.recipes.recipes[0] %}
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ info.name }}</title>
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<div class="jumbotron">
+  <h1>{{ info.name }}</h1>
+  <h2>Ingredients</h2>
+  <ul>
+    {% for ingredient in info.ingredients %}
+    {% if ingredient.index %}
+
+    {% assign link = ingredient.index | prepend: "/pages/" %}
+    <li>{{ ingredient.amount }} <a href="{{ link }}">{{ ingredient.name }}</a></li>
+    {% else %}
+    <li>{{ ingredient.amount }} {{ingredient.name}}</li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  <h2>Instructions</h2>
+
+  <ol>
+    {% for step in info.steps %}
+    <li>{{step}}</li>
+    {% endfor %}
+  </ol>
+  <!-- <h1 class="card-header text-center">{{ info.name }} </h1>
+  <div class="container-sm">
+    <img src="{{ info.img }}" class=" rounded my-3" style="max-height: 33vh; width: auto; height: auto;">
+    </img>
+  </div>
+  <div class="card-body">
+
+    <h6 class="card-subtitle text-muted text-center mb-4">
+      {{ info.description }}
+    </h6>
+
+    {%if info.facts %}
+    <ul class="list-group list-group-flush ml-0">
+      
+
+    {%if info.latin_name %}
+    <li class="list-group-item ml-0">
+    <div class="d-flex flex-row justify-content-center ">
+      <div class="card-text pv-2 mx-1">Latin name: </div>
+      <div class="card-text pv-2 font-italic mx-1">
+        {{ info.latin_name }}
+      </div>
+    </div>
+  </li>
+    {% endif %}
+      {%- for fact in info.facts -%}
+      <li class="list-group-item">{{fact}}</li>
+      {%- endfor -%}
+    </ul>
+    {% endif %}
+  </div> -->
+</div>

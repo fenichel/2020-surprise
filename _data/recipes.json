@@ -1,0 +1,47 @@
+{
+    "recipes": [
+        {
+            "name": "Sichuan Popcorn",
+            "ingredients": [
+                {
+                    "name": "sichuan peppercorns",
+                    "amount": "1/4 to 1/2 tsp",
+                    "index": "1"
+                },
+                {
+                    "name": "cayenne",
+                    "amount": "1/4 tsp",
+                    "index": "2"
+                },
+                {
+                    "name": "MSG",
+                    "amount": "1/4 tsp",
+                    "index": "3"
+                },
+                {
+                    "name": "popping corn",
+                    "amount": "1/4 c",
+                    "index": "4"
+                },
+                {
+                    "name": "salt",
+                    "amount": "1/2 tsp"
+                },
+                {
+                    "name": "canola oil",
+                    "amount": "2 tbsp"
+                }
+            ],
+            "steps": [
+                "Toast the peppercorns in a heavy pan, stirring often. Set aside to cool.",
+                "Mix MSG, cayenne, and salt in a bowl.",
+                "Grind peppercorns, then mix with other spices.",
+                "Sprinkle about 2/3 of the spice blend onto a large, clean rimmed baking sheet. Reserve the remaining 1/3 of the spice blend. Set the baking sheet near the stove.",
+                "Put the oil and 3 popcorn kernels in a heavy 3 to 6-quart pan. Cover with a lid. Set on medium-high or high heat.",
+                "After you hear all 3 kernels pop, uncover and pour in the popcorn. Cover and vigorously shake the pan to distribute. Set back down on the burner. In about 1 minute, the popcorn will start popping. Pick up the lidded pan and shake up and down or side to side to facilitate even cooking. Then replace on the heat. Frequently repeat until the popping slows down and you hear 3 to 5 seconds between pops.",
+                "Slide to a cool burner. Remove the lid, tilting it away from you and setting it aside. Pour the hot, gently sizzling popcorn onto the baking sheet, evenly distributing it. Sprinkle the reserved spices on top.",
+                "Use a silicone spatula or metal spoon to stir and combine the popcorn to coat it with the spice blend."
+            ]
+        }
+    ]
+}
