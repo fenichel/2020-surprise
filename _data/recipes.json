@@ -2,26 +2,27 @@
     "recipes": [
         {
             "name": "Sichuan Popcorn",
+            "note": "Spice amounts are approximate. I packed enough popping corn for you to experiment.",
             "ingredients": [
                 {
                     "name": "sichuan peppercorns",
                     "amount": "1/4 to 1/2 tsp",
-                    "index": "1"
+                    "index": 1
                 },
                 {
                     "name": "cayenne",
                     "amount": "1/4 tsp",
-                    "index": "2"
+                    "index": 2
                 },
                 {
                     "name": "MSG",
                     "amount": "1/4 tsp",
-                    "index": "3"
+                    "index": 3
                 },
                 {
                     "name": "popping corn",
                     "amount": "1/4 c",
-                    "index": "4"
+                    "index": 4
                 },
                 {
                     "name": "salt",
@@ -41,6 +42,199 @@
                 "After you hear all 3 kernels pop, uncover and pour in the popcorn. Cover and vigorously shake the pan to distribute. Set back down on the burner. In about 1 minute, the popcorn will start popping. Pick up the lidded pan and shake up and down or side to side to facilitate even cooking. Then replace on the heat. Frequently repeat until the popping slows down and you hear 3 to 5 seconds between pops.",
                 "Slide to a cool burner. Remove the lid, tilting it away from you and setting it aside. Pour the hot, gently sizzling popcorn onto the baking sheet, evenly distributing it. Sprinkle the reserved spices on top.",
                 "Use a silicone spatula or metal spoon to stir and combine the popcorn to coat it with the spice blend."
+            ]
+        },
+        {
+            "name": "Bulgur porridge",
+            "note": "If you skip measuring and just dump all of the contents of all the bags into the pot, you'll still have a good time. I packed extra for use as toppings or for snacking.",
+            "ingredients": [
+                {
+                    "name": "chia seeds",
+                    "amount": "1 tbsp",
+                    "index": 5
+                },
+                {
+                    "name": "flax seed",
+                    "amount": "1 tbsp",
+                    "index": 6
+                },
+                {
+                    "name": "millet",
+                    "amount": "2 tbsp",
+                    "index": 7
+                },
+                {
+                    "name": "pecans",
+                    "amount": "1 tbsp chopped",
+                    "index": 8
+                },
+                {
+                    "name": "bulgur wheat",
+                    "amount": "3/4 c",
+                    "index": 9
+                },
+                {
+                    "name": "water",
+                    "amount": "3 c"
+                },
+                {
+                    "name": "maple syrup or honey",
+                    "amount": "2 tsp"
+                },
+                {
+                    "name": "unsalted butter",
+                    "amount": "1/2 tbsp"
+                },
+                {
+                    "name": "kosher salt",
+                    "amount": "1/2 tsp"
+                }
+            ],
+            "steps": [
+                "Combine the water, bulgur wheat, millet, flax seed, chia seeds, pecans, maple syrup, butter, and salt in a medium saucepan.",
+                "Simmer over medium heat until the mixture is nice and creamy, around 15 minutes.",
+                "(Optional) While the porridge is cooking, mix cinnamon and sugar in a small bowl to use as a topping.",
+                "To serve, scoop the porridge into bowls and sprinkle with your topping."
+            ]
+        },
+        {
+            "name": "Hot cocoa",
+            "note": "For a spicy kick, add a pinch of cayenne to the mix.",
+            "ingredients": [
+                {
+                    "name": "cocoa powder",
+                    "amount": "1/2 c",
+                    "index": 10
+                },
+                {
+                    "name": "powdered sugar",
+                    "amount": "1 c",
+                    "index": 11
+                },
+                {
+                    "name": "Marshmallows",
+                    "amount": "",
+                    "index": 12
+                },
+                {
+                    "name": "powdered milk",
+                    "amount": "1 c",
+                    "index": 13
+                },
+                {
+                    "name": "salt",
+                    "amount": "1/2 tsp"
+                },
+                {
+                    "name": "Hot water"
+                }
+            ],
+            "steps": [
+                "Combine cocoa powder, powdered sugar, milk powder, and salt in a mixing bowl and mix evenly.",
+                "Heat water or milk.",
+                "Fill your mug halfway with cocoa mix and pour in hot water.",
+                "Stir to combine.",
+                "Top with a marshmallow."
+            ]
+        },
+        {
+            "name": "Granola",
+            "note": "Amounts are approximate, so you can also just combine the contents of all of the bags for this recipe",
+            "ingredients": [
+                {
+                    "name": "raisins",
+                    "amount": "2 tbsp",
+                    "index": 14
+                },
+                {
+                    "name": "barberries",
+                    "amount": "2 tbsp",
+                    "index": 15
+                },
+                {
+                    "name": "almond slivers",
+                    "amount": "1/4 c",
+                    "index": 16
+                },
+                {
+                    "name": "shredded coconut",
+                    "amount": "1/4 c",
+                    "index": 17
+                },
+                {
+                    "name": "brown sugar",
+                    "amount": "1/4 c",
+                    "index": 18
+                },
+                {
+                    "name": "sunflower seeds",
+                    "amount": "1/4 c",
+                    "index": 19
+                },
+                {
+                    "name": "oats",
+                    "amount": "2 c",
+                    "index": 20
+                },
+                {
+                    "name": "vegetable oil",
+                    "amount": "2 tbsp"
+                },
+                {
+                    "name": "maple syrup or honey",
+                    "amount": "2 tbsp"
+                },
+                {
+                    "name": "salt",
+                    "amount": "1/2 tsp"
+                }
+            ],
+            "steps": [
+                "Preheat oven to 250 degrees F.",
+                "In a large bowl, combine raisins, barberries, almond slivers, coconut, brown sugar, sunflower seeds, and oats.",
+                "In a separate bowl, combine maple syrup or honey, oil, and salt.",
+                "Combine both mixtures and pour onto two sheet pans.",
+                "Cook for 1 hour and 15 minutes, stirring every 15 minutes to achieve an even colour.",
+                "Remove from oven and transfer into a large bowl or your belly."
+            ]
+        },
+        {
+            "name": "Mulled wine or cider",
+            "ingredients": [
+                {
+                    "name": "whole cloves",
+                    "amount": "8",
+                    "index": 21
+                },
+                {
+                    "name": "orange peel",
+                    "amount": "1 tbsp",
+                    "index": 22
+                },
+                {
+                    "name": "dried ginger",
+                    "amount": "2 tsp",
+                    "index": 23
+                },
+                {
+                    "name": "star anise",
+                    "amount": "4",
+                    "index": 24
+                },
+                {
+                    "name": "cinnamon sticks",
+                    "amount": "4 2-inch",
+                    "index": 25
+                },
+                {
+                    "name": "red wine or apple cider",
+                    "amount": "1 bottle"
+                }
+            ],
+            "steps": [
+                "Combine ingredients in a saucepan.",
+                "Simmer for between 15 minutes and 3 hours.",
+                "Serve, optionally spiking with liquer of your choice."
             ]
         }
     ]

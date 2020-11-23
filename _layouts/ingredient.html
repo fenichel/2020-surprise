@@ -4,16 +4,6 @@ layout: default
 {% assign index = page.index %}
 {% assign info = site.data.ingredients.ingredients[index] %}
 
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>{{ info.name }}</title>
-  <link rel="stylesheet" href="/assets/css/custom.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
-
 <div class="card text-center vh-100">
   <h1 class="card-header text-center">{{ info.name }} </h1>
   <div class="container-sm">
@@ -28,22 +18,28 @@ layout: default
 
     {%if info.facts %}
     <ul class="list-group list-group-flush ml-0">
-      
 
-    {%if info.latin_name %}
-    <li class="list-group-item ml-0">
-    <div class="d-flex flex-row justify-content-center ">
-      <div class="card-text pv-2 mx-1">Latin name: </div>
-      <div class="card-text pv-2 font-italic mx-1">
-        {{ info.latin_name }}
-      </div>
-    </div>
-  </li>
-    {% endif %}
+
+      {%if info.latin_name %}
+      <li class="list-group-item ml-0">
+        <div class="d-flex flex-row justify-content-center ">
+          <div class="card-text pv-2 mx-1">Latin name: </div>
+          <div class="card-text pv-2 font-italic mx-1">
+            {{ info.latin_name }}
+          </div>
+        </div>
+      </li>
+      {% endif %}
       {%- for fact in info.facts -%}
       <li class="list-group-item">{{fact}}</li>
       {%- endfor -%}
     </ul>
+    {% endif %}
+
+    {%if info.recipe %}
+
+    {% assign link = info.recipe | prepend: "/recipes/" %}
+    <div class="pt-3"><a href="{{ link }}" class="btn btn-light btn-lg">Go to recipe!</a></div>
     {% endif %}
   </div>
 </div>

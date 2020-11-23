@@ -48,7 +48,8 @@
                 "The first commercial popcorn machine was invented in Chicago in 1885",
                 "Nebraska produces 250 million pounds of popcorn per year"
             ],
-            "img": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ab_food_06.jpg"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ab_food_06.jpg",
+            "recipe": "popcorn"
         },
         {
             "name": "Chia Seeds",
@@ -107,7 +108,8 @@
                 "You may have eaten bulgur in tabbouleh or kibbeh",
                 "Bulgur comes in various grades, distinguished by particle size"
             ],
-            "img": "https://upload.wikimedia.org/wikipedia/commons/7/76/Bulgur_yap%C4%B1m%C4%B1.JPG"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/7/76/Bulgur_yap%C4%B1m%C4%B1.JPG",
+            "recipe": "porridge"
         },
         {
             "name": "Dutched Cocoa Powder",
@@ -142,7 +144,8 @@
                 "Partially drying milk gives evaporated milk, also known as unsweetened condensed milk",
                 "The flavors and fat content in the original milk significantly impact the flavor of the powder; so does the drying method"
             ],
-            "img": "https://upload.wikimedia.org/wikipedia/commons/8/8b/PowderedMilk.jpg"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/8/8b/PowderedMilk.jpg",
+            "recipe": "cocoa"
         },
         {
             "name": "Raisins",
@@ -199,7 +202,8 @@
         {
             "name": "Oats",
             "description": "",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Nahrungsmittel_2012-07-08-9510.jpg"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Nahrungsmittel_2012-07-08-9510.jpg",
+            "recipe": "granola"
         },
         {
             "name": "Cloves",
@@ -245,7 +249,8 @@
                 "After the rainy season these shoots are cut",
                 "The outer bark is scraped off and discarded, and the inner bark carefully pulled off into rolls"
             ],
-            "img": "https://upload.wikimedia.org/wikipedia/commons/6/67/Canelle_Cinnamomum_burmannii_Luc_Viatour.jpg"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/6/67/Canelle_Cinnamomum_burmannii_Luc_Viatour.jpg",
+            "recipe": "cider"
         }
     ]
 }
