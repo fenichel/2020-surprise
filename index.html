@@ -11,20 +11,26 @@ layout: homepage
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+<div class="container d-flex justify-content-center">
+  <div class="jumbotron pt-3 pb-4 px-1" style="max-width: 350px;">
+    <h1 class="display-5 text-center py-3">The Calendar</h1>
+    <div class="container">
+      <div class="row d-flex justify-content-center align-content-center">
+        {% for i in (1..5) %}
+        {% for j in (1..5) %}
+        <div class="col m-1 px-sm-0 bg-light d-flex justify-content-center align-content-center rounded-sm"
+          style="max-width: 50px; max-height: 50px;">
+          {% assign date = i | minus: 1 | times: 5 | plus: j %}
+          {% assign ingredient = site.data.ingredients.ingredients[i] %}
+          <a href="./pages/{{ date }}" class="h4 my-2 text-baseline text-dark">
+            {{ date }}
+          </a>
+        </div>
+        {% endfor %}
+        <div class="w-100"></div>
+        {% endfor %}
+      </div>
 
-<div class="jumbotron py-2">
-  <h1 class="display-5 text-center">The Calendar</h1>
-  {% for i in (1..5) %}
-  <div class="row">
-    {% for j in (1..5) %}
-    <div class="col d-flex justify-content-center m-1 p-3 bg-light">
-      {% assign date = i | minus: 1 | times: 5 | plus: j %}
-      {% assign ingredient = site.data.ingredients.ingredients[i] %}
-        <a href="./pages/{{ date }}" class="h1 text-center text-dark">
-          {{ date }}
-        </a>
     </div>
-    {% endfor %}
   </div>
-  {% endfor %}
 </div>
