@@ -12,7 +12,9 @@
             "facts": [
                 "Native to Sichuan Province, China",
                 "Cultivated throughout Asia",
-                "Pairs well with citrus, ginger, and anything in the anise family"
+                "Pairs well with citrus, ginger, and anything in the anise family",
+                "Ground sichuan peppercorn is a key ingredient in five-spice powder",
+                "It is also used in Nepali and Tibetan cuisine, and other cuisines from the Himalayas"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Sichuan_pepper%2C_including_husks%2C_seeds_and_stems.jpg"
         },
@@ -23,7 +25,8 @@
             "facts": [
                 "Native to French Guiana, Central and South America",
                 "Cultivated in Mexico, Africa, India, and Louisiana",
-                "Cayenne is a medium to high-heat chili with sweet-and-sour notes, dusty overtones, and a great orange color"
+                "Cayenne is a medium to high-heat chili with sweet-and-sour notes, dusty overtones, and a great orange color",
+                "Most types of cayenne peppers range from 30,000 to 50,000 scoville units"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Hanging_Chili_Peppers_Ristra.jpg"
         },
@@ -93,7 +96,8 @@
             "facts": [
                 "The commercial growing of pecans in the United States did not start until the 1880s",
                 "The US and Mexico account for 93% of global pecan production",
-                "Pecans grow best where summers are long, hot, and humid"
+                "Pecans grow best where summers are long, hot, and humid",
+                "The pecan is one of four California state nuts, along with almond, pistachio, and walnut"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Pecan_halves.JPG"
         },
@@ -114,6 +118,12 @@
         {
             "name": "Dutched Cocoa Powder",
             "description": "Cocoa powder that has been washed with an alkaline solution to neutralize its natural acidity",
+            "facts": [
+                "While natural cocoa powder has a pH around 5.5, dutched cocoa powder's pH is usually between 6.8 and 8.1",
+                "The alkalization process reduces bitterness and improves solubility",
+                "The Droste effect is named for the packaging of a Dutch brand of cocoa powder, Droste's Cacao",
+                "The Droste effect is when a picture appears recursively inside itself"
+            ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cocoa-powder-1883108.jpg"
         },
         {
@@ -170,8 +180,17 @@
             "img": "https://upload.wikimedia.org/wikipedia/commons/a/a8/%C3%89pine-vinette_s%C3%A9ch%C3%A9e_d%27Ouzb%C3%A9kistan_%282%29.jpg"
         },
         {
-            "name": "Almond Slivers",
-            "description": "",
+            "name": "Almonds",
+            "description": "The sweet, soft seed of the almond tree, often used in sweets and cakes",
+            "latin_name": "Prunus amygdalus",
+            "facts": [
+                "Native to Iran and surrounding countries",
+                "Technically it's a drupe, not a nut",
+                "Almond production in California is concentrated in the Central Valley",
+                "A single almond takes 1.1 gallons of water to grow--but almond milk is still more sustainable than cow milk",
+                "There is a recessive gene in almonds that controls bitterness",
+                "Bitter almonds also contain chemicals that form cyanide in the presence of water"
+            ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Almond_-_%E0%B4%AC%E0%B4%A6%E0%B4%BE%E0%B4%82.jpg"
         },
         {
@@ -180,13 +199,20 @@
             "latin_name": "Cocos nucifera",
             "facts": [
                 "Every part of the coconut has a use, from the inside of the fruit to the fibrous husks to their leaves and trunks",
-                "If you were stuck on a deserted island, a coconut tree would be an excellent resource!"
+                "If you were stuck on a deserted island, a coconut tree would be an excellent resource!",
+                "Coconut shells have three indentations that look like a face",
+                "Like almonds, coconuts are drupes and not true nuts"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Coco_rallado.jpg"
         },
         {
             "name": "Dark Brown Sugar",
-            "description": "Refined sugar with molasses added back to create a rich caramel flavor",
+            "description": "Sugar containing molasses, which creates a rich caramel flavor",
+            "facts": [
+                "Brown sugar can be produced by refining sugar and adding back molasses, or by not fully refining sugar",
+                "In the late 19th century the refined white sugar industry ran a smear campaign against brown sugar","The result was a perception that brown sugar was inferior in quality and likely to be infested by insects",
+                "Natural brown sugars have many names, including muscovado, jaggery, turbinado, and demerara"
+            ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/8/82/Brown_sugar_examples.JPG"
         },
         {
