@@ -39,7 +39,7 @@ layout: default
     {%if info.recipe %}
 
     {% assign link = info.recipe | prepend: "/recipes/" %}
-    <div class="pt-3"><a href="{{ link }}" class="btn btn-light btn-lg">Go to recipe!</a></div>
+    <div class="pt-3"><a href="{{ link | prepend: '2020-suprise/' }}" class="btn btn-light btn-lg">Go to recipe!</a></div>
     {% endif %}
   </div>
 </div>
