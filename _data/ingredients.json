@@ -133,7 +133,7 @@
                 "Before sugar was widely available in granulated form, it came in cakes or cones",
                 "Chefs would then grate it to the desired size",
                 "Powdered sugar can come from either cane or beet sugar",
-                "Sugar cane is thousands of years old, while sugar beets were only developer in the mid 18th century in Prussia"
+                "Sugar cane is thousands of years old, while sugar beets were only developed in the mid 18th century in Prussia"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/PowderedSugar.png"
         },
@@ -153,7 +153,9 @@
             "description": "A shelf-stable, lightweight form of milk often used in candy, baked goods, and infant formula.",
             "facts": [
                 "Partially drying milk gives evaporated milk, also known as unsweetened condensed milk",
-                "The flavors and fat content in the original milk significantly impact the flavor of the powder; so does the drying method"
+                "The flavors and fat content in the original milk significantly impact the flavor of the powder; so does the drying method",
+                "Adding milk powder to baked goods can add extra smoothness and sweetness",
+                "Baker's dry milk powder has been heated extra during drying to denature some enzymes that interfere with gluten formation"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/8/8b/PowderedMilk.jpg",
             "recipe": "cocoa"
@@ -223,7 +225,7 @@
             "facts":[
                 "Did you know you can buy pickle flavored sunflower seeds?",
                 "Sunflowers tilt during the day to face the sun, but stop when they begin blooming",
-                "Ukraine and Russia each produce a quarter of the world's sunflowers",
+                "Ukraine and Russia each produce a quarter of the world's sunflower seeds",
                 "Sunflower hulls contain compounds that make them toxic to grasses and most garden plants"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sunflower_seeds_1.jpg"
@@ -238,7 +240,7 @@
                 "Steel cut oats are oat inners (groats) which were broken during the dehulling process",
                 "Steel cut oats retain a portion of the bran layer",
                 "Rolled oats are dehusked, steamed, rolled between heavy rollers, and then lightly toasted",
-                "Oats go best in temperate regions",
+                "Oats grow best in temperate regions",
                 "Oats have a greater tolerance of rain than other cereals, so they can be grown in places with cool, wet summers"
             ]
         },
@@ -248,7 +250,7 @@
             "latin_name": "Syzygium aromaticum",
             "facts":[
                 "A member of the myrtle family",
-                "Adult clove trees grow 26-29 feet tall",
+                "Adult clove trees grow 26-39 feet tall",
                 "The Dutch monopolized the trade of cloves from the seventeenth century on",
                 "In the late 1700s a Frenchman named Pierre Poivre brought stolen clove seedlings to France (and then to Zanzibar) and set up competition with the Dutch",
                 "The compound responsible for the aroma of cloves is called eugenol"
