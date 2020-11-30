@@ -10,7 +10,7 @@ layout: default
     {% for ingredient in info.ingredients %}
     {% if ingredient.index %}
 
-    {% assign link = ingredient.index | prepend: "/pages/" %}
+    {% assign link = ingredient.index | prepend: "2020-surprise/pages/" %}
     <li>{{ ingredient.amount }} <a href="{{ link }}">{{ ingredient.name }}</a></li>
     {% else %}
     <li>{{ ingredient.amount }} {{ingredient.name}}</li>
