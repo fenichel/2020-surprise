@@ -132,6 +132,7 @@
             "facts": [
                 "Before sugar was widely available in granulated form, it came in cakes or cones",
                 "Chefs would then grate it to the desired size",
+                "Powdered sugar can come from either cane or beet sugar",
                 "Sugar cane is thousands of years old, while sugar beets were only developer in the mid 18th century in Prussia"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/PowderedSugar.png"
@@ -163,7 +164,7 @@
             "facts": [
                 "There is a distinction between a sultana (a golden raisin) and a raisin (a dark raisin) in the UK, Ireland, New Zealand, and Australia",
                 "Raisins are traditionally sun-dried, either on the vine or on trays",
-                "Oatmeal raisin cookies are a polarizing topic; oatmeal raisin chocolate chip cookies can break up even the strongest friendships"
+                "Oatmeal raisin cookies are a polarizing topic","Oatmeal raisin chocolate chip cookies can break up even the strongest friendships"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/8/82/Raisins.jpg"
         },
@@ -221,7 +222,9 @@
             "latin_name": "Helianthus annuus",
             "facts":[
                 "Did you know you can buy pickle flavored sunflower seeds?",
-                "Sunflowers tilt during the day to face the sun, but stop when they begin blooming"
+                "Sunflowers tilt during the day to face the sun, but stop when they begin blooming",
+                "Ukraine and Russia each produce a quarter of the world's sunflowers",
+                "Sunflower hulls contain compounds that make them toxic to grasses and most garden plants"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sunflower_seeds_1.jpg"
         },
@@ -229,7 +232,15 @@
             "name": "Oats",
             "description": "",
             "img": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Nahrungsmittel_2012-07-08-9510.jpg",
-            "recipe": "granola"
+            "recipe": "granola",
+            "latin_name": "Avena sativa",
+            "facts": [
+                "Steel cut oats are oat inners (groats) which were broken during the dehulling process",
+                "Steel cut oats retain a portion of the bran layer",
+                "Rolled oats are dehusked, steamed, rolled between heavy rollers, and then lightly toasted",
+                "Oats go best in temperate regions",
+                "Oats have a greater tolerance of rain than other cereals, so they can be grown in places with cool, wet summers"
+            ]
         },
         {
             "name": "Cloves",
@@ -237,15 +248,24 @@
             "latin_name": "Syzygium aromaticum",
             "facts":[
                 "A member of the myrtle family",
+                "Adult clove trees grow 26-29 feet tall",
                 "The Dutch monopolized the trade of cloves from the seventeenth century on",
-                "In the late 1700s a Frenchman named Pierre Poivre brought stolen clove seedlings to France (and then to Zanzibar) and set up competition with the Dutch"
+                "In the late 1700s a Frenchman named Pierre Poivre brought stolen clove seedlings to France (and then to Zanzibar) and set up competition with the Dutch",
+                "The compound responsible for the aroma of cloves is called eugenol"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cloves.JPG"
         },
         {
             "name": "Orange peel",
-            "description": "",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/b/bc/2015-Erstansatz.jpg"
+            "description": "Citrus sinensis",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/b/bc/2015-Erstansatz.jpg",
+            "facts": [
+                "The orange is a hybrid between pomelo and mandarin",
+                "Brazil produces about a quarter of the world's oranges",
+                "Bergamot oranges are a hybrid between bitter oranges and lemons, and the peel is used to produce perfumes and Earl Grey tea",
+                "Pith thickness varies widely between orange cultivars",
+                "The outer skin of an orange, often called the zest, is also called the exocarp or the flavedo"
+            ]
         },
         {
             "name": "Ginger",
@@ -254,7 +274,10 @@
             "facts":[
                 "The spicy compound in ginger is called gingerol",
                 "Cultivated in India, China, Japan, Indonesia, Nigeria, Jamaica, and various islands of the West Indies",
-                "Native to China"
+                "Native to China",
+                "Ginger is related to turmeric, cardamom, and galangal",
+                "India produces a third of the world's ginger",
+                "Ginger juice can be used to curdle milk at 158 Fahrenheit, making ginger milk curd--like tofu, but gingery"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/4/41/Starr_070730-7818_Zingiber_officinale.jpg"
         },
@@ -263,17 +286,24 @@
             "description": "A sweet, licorice-scented spice made from distinct eight-pointed fruits",
             "latin_name": "Illicium verum",
             "facts": [
-                "Native to China and Vietnam"
+                "Native to China and Vietnam",
+                "Star anise contains anethole, the same compound that gives the unrelated anise its flavor",
+                "About 90% of the world's star anise crop is used for extraction of shikimic acid, a chemical intermediate used in the synthesis of Tamiflu",
+                "The related japanese star anise tree is highly toxic",
+                "Star anise is a key flavor in five-spice powder and pho"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/6/62/Illicium_verum_2006-10-17.jpg"
         },
         {
             "name": "Cinnamon",
             "description": "Warm spices made from the barks of young tree stems",
+            "latin_name": "Cinnamomum verum, Cinnamomum cassia",
             "facts":[
                 "The trees are grown for multiple years, then chopped down to stumps that push up bushy new shoots from the base",
                 "After the rainy season these shoots are cut",
-                "The outer bark is scraped off and discarded, and the inner bark carefully pulled off into rolls"
+                "The outer bark is scraped off and discarded, and the inner bark carefully pulled off into rolls",
+                "The essential oil in cinnamon is called cinnamaldehyde",
+                "99% of the world's cinnamon is grown in Indonesia, China, Vietnam and Sri Lanka"
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/6/67/Canelle_Cinnamomum_burmannii_Luc_Viatour.jpg",
             "recipe": "cider"
